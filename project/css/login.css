@@ -1,0 +1,119 @@
+@charset "UTF-8";
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url("../img/login.png") center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#logo {
+    position: relative;
+    width: 2.06rem;
+    height: 1.26rem;
+    left: 50%;
+    top: 2.2rem;
+    transform: translateX(-50%);
+}
+
+#secForm {
+    text-align: center;
+}
+
+#fromVal {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    margin-top: 3rem;
+}
+
+#fromVal li {
+    height: 1.13rem;
+}
+
+#fromVal label {
+    font-size: .26rem;
+    color: #f3f3f3;
+}
+
+#fromVal input {
+    border: none;
+    border-radius: unset;
+    background-color: transparent;
+    border-bottom: 1px solid #3f334b;
+    width: 4.5rem;
+    margin-left: -0.2rem;
+    padding-left: .36rem;
+    padding-bottom: .24rem;
+    color: #f3f3f3;
+    font-size: .26rem;
+}
+
+#fromVal input::-webkit-input-placeholder {
+    color: #666666;
+}
+
+#fromVal input::-moz-placeholder {
+    color: #666666;
+}
+
+#fromVal input::-ms-input-placeholder {
+    color: #666666;
+}
+
+#fromVal input:focus {
+    outline: none;
+}
+
+#fromVal #Verification {
+    width: 2rem;
+}
+#fromVal #Verification{
+    width: 1.7rem;
+}
+#VerCode {
+    color: #0373dc;
+    font-size: 0.26rem;
+    /*margin-left: 1rem;*/
+    width: 2.5rem;
+    z-index: 6000;
+    display: inline-block;
+}
+
+.login {
+    text-align: center;
+}
+
+#btn {
+    padding: 0;
+    border: none;
+    width: 6rem;
+    height: .82rem;
+    border-radius: 8px;
+    background-color: #0373dc;
+    font-size: .32rem;
+    color: #ffffff;
+    margin-top: .74rem;
+}
+
+#btn:focus {
+    outline: 0;
+}
+
+.download {
+    display: block;
+    font-size: .26rem;
+    color: #0373dc;
+    margin-top: .7rem;
+    text-align: center;
+}
+
+.download img {
+    height: .15rem;
+}
